@@ -115,11 +115,11 @@
 			shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/black
 			pants = /obj/item/clothing/under/roguetown/trou/leather
 			beltl = /obj/item/storage/belt/rogue/pouch/coins/poor
-			beltr = /obj/item/gun/ballistic/rifle/repeater/jackal 
 			shoes = /obj/item/clothing/shoes/roguetown/boots
 			neck = /obj/item/clothing/neck/roguetown/gorget
 			gloves = /obj/item/clothing/gloves/roguetown/fingerless_leather
 			backl = /obj/item/storage/backpack/rogue/satchel
+			backr = /obj/item/gun/ballistic/rifle/repeater/jackal
 			belt = /obj/item/storage/belt/rogue/leather
 			backpack_contents = list(
 				/obj/item/lockpick = 1, 
