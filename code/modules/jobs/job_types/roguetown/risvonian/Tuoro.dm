@@ -11,8 +11,8 @@
 
 	tutorial = "You're a Risvonian Shield Bearer. \
 				You're supposed to follow the orders of the Oficiro and Commandant, while working with your squadron and providing support where needed. \
-				 y\
-				Tuoros are typically picked from Soldati, ." 
+				You are meant to stay close to your team, raise your shield and keep them covered. Do not stray from them, this defeats the purpose.\
+				Tuoros are typically picked from Soldati, promoted via their will to fight and their builds, chosen as the most enduring of the pack. Keep your squadron covered." 
 
 	outfit = /datum/outfit/job/roguetown/tuoro
 	display_order = JDO_TUORO
@@ -71,10 +71,11 @@
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/shotguns, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/shields, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/craft/weaponsmithing, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
-	H.change_stat("strength", 1) // roid rage mfs on them 24/7 percs
+	H.change_stat("strength", 2) // roid rage mfs on them 24/7 percs
 	H.change_stat("constitution", 5)
 	H.change_stat("endurance", 4)
 	H.change_stat("speed", -2)
