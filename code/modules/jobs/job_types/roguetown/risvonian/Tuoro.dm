@@ -46,12 +46,13 @@
 	neck = /obj/item/clothing/neck/roguetown/chaincoif
 	belt = /obj/item/storage/belt/rogue/leather/black
 	beltl = /obj/item/flashlight/flare/torch/lantern
-	beltr = /obj/item/storage/belt/rogue/pouch/ammobag
+	beltr = /obj/item/grenade
 	wrists = /obj/item/scomstone
 	gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
-	backl = /obj/item/gun/ballistic/shotgun/risvon
+	backl = /obj/item/rogueweapon/stoneaxe/woodcut/risvon
 	backr = /obj/item/storage/backpack/rogue/backpack/risvon
 	id = /obj/item/roguekey/risvon
+	r_hand = /obj/item/rogueweapon/shield/tower/metal
 	backpack_contents = list(
 		/obj/item/ammo_box/handfuls/shotgun/buckshot = 6,
 		/obj/item/rogueweapon/huntingknife/idagger/steel,
@@ -61,23 +62,24 @@
 		/obj/item/rogueweapon/stoneaxe/woodcut/risvon,
 		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew,
 	)
-	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE) // j-man wrestling just to grab and punch, anyone with a str statpack can break out as it's just 1 above
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/unarmed, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE) // THEY DO NOT GET SWORDS, THEY ARE SAVAGES, THEY USE AXES
 	H.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/axes, 4, TRUE) // they are also better than soldatos at axes, gives them a 10% chance to better get by parries
 	H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/athletics, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/shields, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/weaponsmithing, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
 	H.change_stat("strength", 2) // roid rage mfs on them 24/7 percs
-	H.change_stat("constitution", 5)
-	H.change_stat("endurance", 4)
-	H.change_stat("speed", -2)
+	H.change_stat("constitution", 3) // extra con in exchange for no guns
+	H.change_stat("endurance", 2)
+	H.change_stat("perception", 2)
+	H.change_stat("speed", 2)
 	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_LONGSTRIDER, TRAIT_GENERIC)
