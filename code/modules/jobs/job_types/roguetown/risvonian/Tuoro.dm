@@ -54,7 +54,6 @@
 	id = /obj/item/roguekey/risvon
 	r_hand = /obj/item/rogueweapon/shield/tower/metal
 	backpack_contents = list(
-		/obj/item/ammo_box/handfuls/shotgun/buckshot = 6,
 		/obj/item/rogueweapon/huntingknife/idagger/steel,
 		/obj/item/storage/belt/rogue/pouch/coins/mid,
 		/obj/item/smokegrenade,
