@@ -549,7 +549,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/soldatolate
 	name = "Soldato"
 	icon_state = "arrow"
-	jobspawn_override = list("Soldato")
+	jobspawn_override = list("Soldato", "Tuoro")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/servisto
